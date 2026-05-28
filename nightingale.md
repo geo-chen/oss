@@ -6,3 +6,6 @@ center/router/router.go:501 registers `POST /api/n9e/datasource/list` with `page
 ## Fix
  - https://github.com/ccfos/nightingale/issues/3173
  - https://github.com/ccfos/nightingale/pull/3175
+
+<img width="844" height="287" alt="image" src="https://github.com/user-attachments/assets/af5eff13-38c3-4bc3-8b80-a87332f2fd1a" />
+
