@@ -2,6 +2,8 @@ Title: Privilege escalation via unrestricted user_permissions and groups in User
 
 Package: paperless-ngx (paperless app). Affected files: src/paperless/views.py, src/paperless/serialisers.py
 
+Project: https://github.com/paperless-ngx/paperless-ngx
+
 Affected Versions: confirmed on v2.20.15 (commit 05e48b2). Present in all releases since the GHSA-59xh-5vwx-4c4q fix that only guards is_superuser/is_staff.
 
 CVSS Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
