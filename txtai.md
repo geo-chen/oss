@@ -38,4 +38,4 @@ Do not resolve arbitrary dotted paths from request config; restrict transform/Re
  - 10 June 2026 - maintainer accepted report
  - 10 June 2026 - https://github.com/neuml/txtai/issues/1111
  - 10 June 2026 - issue closed
- - 26 June 2026 - duplicates from other researchers reported
+ - 26 June 2026 - duplicates from other researchers reported publicly, violating security policy
