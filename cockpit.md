@@ -10,7 +10,6 @@ https://github.com/cockpit-project/cockpit
 
 **CVSS:** 7.5 (High) — `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N`  
 
-*(CVSS applies to setups where the web server does not normalize `..` in URL paths, e.g., PHP built-in server, non-standard Nginx/Apache configs)*
 
 ## Summary
 
@@ -148,10 +147,11 @@ This ensures `$spaceFilePath` always resolves to a canonical path inside `APP_SP
 
 
 ## Disclosure Timeline
- - reported on 23 May 2026
- - received thanks and fixed on 25 May 2026
- - requested for CVE on 25 May 2026
- - followed up on request on 17 June 2026
- - multiple releases since the fix; disclosed
+
+ - 23 May 2026 - email report
+ - 25 May 2026 - maintainer fixed - shipped in next release
+ - 25 May 2026 - followed up on disclosure
+ - 17 June 2026 - second follow up
+ - 1 July 2026 - multiple releases since the fix; no responses received, disclosed
    
    <img width="1239" height="517" alt="image" src="https://github.com/user-attachments/assets/d57a2c72-4efc-4472-b7f9-2397708bfb52" />
