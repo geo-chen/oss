@@ -128,15 +128,15 @@ The class is JSONP cross-site script inclusion. The fix is to either remove the 
 
 ### Disclosure
 
-- reported vulnerability in v4.28 on 25 May 2026
-- fixed on 26 May 2026 via https://github.com/seaweedfs/seaweedfs/pull/9686. maintainer offered to credit me in GHSA and CVE
-<img width="1238" height="377" alt="image" src="https://github.com/user-attachments/assets/2eea782b-fa2e-474f-ac8b-0f03d2a8fc61" />
-
+- 25 May 2026 - reported vulnerability in v4.28
+- 26 May 2026 - fixed via https://github.com/seaweedfs/seaweedfs/pull/9686. maintainer offered to credit me in GHSA and CVE
+- <img width="1238" height="377" alt="image" src="https://github.com/user-attachments/assets/2eea782b-fa2e-474f-ac8b-0f03d2a8fc61" />
 - fix released in v4.30
-  <img width="1051" height="557" alt="image" src="https://github.com/user-attachments/assets/c264ed59-222f-4071-80b9-3df4c577922d" />
-- requested for CVE on 26 May 2026
-- followed up on my request for CVE on 13 June 2026
-- no response since, disclosed on 29 June 2026
+- <img width="1051" height="557" alt="image" src="https://github.com/user-attachments/assets/c264ed59-222f-4071-80b9-3df4c577922d" />
+- 26 May 2026 - requested for CVE
+- 13 June 2026 - followed up on my request for CVE
+- 29 June 2026 - no response since, disclosed.
+- 1 July 2026 - CVE-2026-58371
 
 
 
@@ -204,11 +204,10 @@ In `DeleteMultipleObjectsHandler`, validate every `object.Key` with the existing
 ### Disclosure
 
 - reported for version post-v4.30
-- acknowledged on 14 June 2026 by maintainer
-<img width="1204" height="242" alt="image" src="https://github.com/user-attachments/assets/077712e4-9f9d-4e7e-ac7b-d6926057cb4c" />
-
-- verified fix on 14 June 2026
-- fixed in #9931 in v4.31
-<img width="922" height="287" alt="image" src="https://github.com/user-attachments/assets/5f152a2c-ca03-4378-8f6b-25ca34a45dd7" />
+- 14 June 2026 acknowledged by maintainer
+- <img width="1204" height="242" alt="image" src="https://github.com/user-attachments/assets/077712e4-9f9d-4e7e-ac7b-d6926057cb4c" />
+- 14 June 2026 - verified fix #9931 in v4.31
+- <img width="922" height="287" alt="image" src="https://github.com/user-attachments/assets/5f152a2c-ca03-4378-8f6b-25ca34a45dd7" />
+- 1 July 2026 - CVE-2026-58372
 
   
