@@ -152,6 +152,6 @@ This ensures `$spaceFilePath` always resolves to a canonical path inside `APP_SP
  - received thanks and fixed on 25 May 2026
  - requested for CVE on 25 May 2026
  - followed up on request on 17 June 2026
- - still no response, published on 29 June 2026 to get CVE assigned
+ - multiple releases since the fix; disclosed
    
    <img width="1239" height="517" alt="image" src="https://github.com/user-attachments/assets/d57a2c72-4efc-4472-b7f9-2397708bfb52" />
