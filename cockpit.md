@@ -1,4 +1,4 @@
-https://github.com/cockpit-project/cockpit
+https://github.com/cockpit-hq/cockpit
 
 # Pre-authentication Path Traversal in Space Storage File Serving
 
