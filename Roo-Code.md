@@ -2,9 +2,9 @@ https://github.com/RooCodeInc/Roo-Code - "This repository was archived by the ow
 
 reported 12 June 2026 via email - no response.
 
-## Finding: Auto-approve command allowlist/denylist bypassed via command substitution nested in a parameter expansion (${x:-$(...)})
+## Finding: Auto-approve command allowlist/denylist bypassed via command substitution nested in a parameter expansion
 
-Affected Version: commit b867ec9
+Affected Version: commit b867ec9 (v3.54.0)
 
 ### Summary
 
