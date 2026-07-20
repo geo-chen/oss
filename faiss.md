@@ -10,7 +10,7 @@ CWE: CWE-125 Out-of-bounds Read
 
 ### Disclosure
  - 9 June 2026 - reported via FB Bug Bounty
- - 21 June 2026 - FB closed without explaination "Due to the volume of reports we currently receive, we are unable to provide detailed information as to how we reached this decision."
+ - 21 July 2026 - FB closed without explaination "Due to the volume of reports we currently receive, we are unable to provide detailed information as to how we reached this decision."
 
 ### Summary
 
