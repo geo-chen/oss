@@ -68,3 +68,8 @@ An unauthenticated network client of a HuggingGPT model/orchestrator server reac
 ### Remediation
 
 Before fetching `img_url` / `audio_url`, resolve the host and reject loopback, private (RFC1918), link-local (169.254.0.0/16, fe80::/10), unique-local, and reserved ranges plus metadata hostnames; enforce an http/https allowlist and reject local filesystem paths from request fields; disable/re-validate redirects and pin the validated IP. Require authentication on the model and orchestrator servers, or bind them to loopback by default rather than `0.0.0.0`.
+
+
+
+<img width="868" height="422" alt="image" src="https://github.com/user-attachments/assets/2731a95d-c5b5-455b-9c3c-26c80d264992" />
+
