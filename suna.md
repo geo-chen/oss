@@ -117,7 +117,7 @@ The severity is elevated by the injection vector: a malicious user can cause the
  - 3 June 2026 - reported via https://github.com/kortix-ai/suna/security/advisories/GHSA-63qg-m94h-w4fm
  - 5 July 2026 - no response so created https://github.com/kortix-ai/suna/issues/4137
  - 5 July 2026 - bot created https://linear.app/kortix/issue/SUNA-1112
- - 13 July 2026 - fixed:
+ - 13 July 2026 - fixed https://github.com/kortix-ai/suna/pull/4373:
    
    <img width="263" height="307" alt="image" src="https://github.com/user-attachments/assets/ea661af6-3e94-4bf2-8e81-6b6c90a368de" />
 but deleted subsequently:
