@@ -5,7 +5,7 @@
 
 **Affected version:** confirmed on commit `87fe259e4fc244c599019a7b1304c85a1488f248` / release `v13.4.6` (latest non-preview release at time of testing)
 
-**CVSS 3.1:* 5.4 (Medium), `AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L`
+**CVSS 3.1:** 5.4 (Medium), `AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L`
 
 ## Summary
 
