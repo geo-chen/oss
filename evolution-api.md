@@ -4,13 +4,6 @@ https://github.com/evolution-foundation/evolution-api
 
 **Version: (v2.3.7)**
 
-### Disclosure
-
- - 14 June 2026 - reported via email
- - 30 June 2026 - acknowledged and fix in progress
- - 14 September 2026 - disclosed
-
-
 ### Email
 
 I am reporting a security vulnerability in evolution-api v2.3.7 that allows unauthenticated remote access to the Prometheus metrics endpoint even when an IP allowlist is configured.
@@ -32,5 +25,13 @@ Suggested fix: change the comparison from array equality to checking the array l
   if (allowedIPs.filter(ip => clientIPs.includes(ip)).length === 0) {
 ```
 Additionally, consider enabling METRICS_AUTH_REQUIRED in the default env.example to reduce misconfiguration risk.
+
+
+### Disclosure
+
+ - 14 June 2026 - reported via email
+ - 30 June 2026 - acknowledged and fix in progress
+ - 14 September 2026 - disclosed
+
 
 <img width="1250" height="633" alt="image" src="https://github.com/user-attachments/assets/8b2bdcad-a11d-4d34-b9d3-64f4956c2a06" />
