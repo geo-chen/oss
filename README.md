@@ -1,1 +1,1 @@
-These are mostly OSS projects that did not respond to GHSA, email, support portal, or issue, or have requested that I BYOC (bring-your-own-CVE) and thus having to use an alternate disclosure channel. 
+These are mostly OSS projects that did not respond to GHSA, email, support portal, issue (or have deleted reported issue), or have requested that I BYOC (bring-your-own-CVE) and thus having to use an alternate disclosure channel. 
