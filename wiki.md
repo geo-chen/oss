@@ -8,7 +8,6 @@ Affected versions: <= 2.5.314
  - 22 June 2026 - reported via https://github.com/requarks/wiki/security/advisories/GHSA-929r-g35v-wjr4
  - 14 September 2026 - no response; disclosed
 
-### Details
 ### Summary
 
 Wiki.js supports restricting read access to pages by tag through a `TAG`-type Page Rule, configurable per-group from the admin Groups editor ("Tag Matches..." rule type). This is enforced correctly on the live page-view route (`/*` in `server/controllers/common.js`), which returns `403 Unauthorized` and no page content when a `TAG` deny rule applies.
@@ -131,8 +130,7 @@ Affected versions: <= 2.5.314 (commit 6f042e97cc2d3acda6b6ff611de8e0faacce91c1)
 ### Disclosure
  - 6 July 2026 - reported via https://github.com/requarks/wiki/security/advisories/GHSA-3jcj-pp6m-ggg5
  - 14 September 2026 - no response; disclosed
-   
-### Details
+
 ### Summary
 
 Wiki.js includes an optional "Image Prefetch" renderer intended to cache remotely-rendered diagram images (from kroki/plantuml) as inline base64 data. When enabled, this renderer fetches the `src` attribute of any `<img class="prefetch-candidate">` element found in a page's rendered HTML, with no restriction on protocol, host, or destination IP address. Any user who can write page content (which can include a raw `<img>` tag placed directly in Markdown, since Wiki.js's Markdown renderer allows raw HTML by default) can force the Wiki.js server to issue an arbitrary outbound HTTP GET request, and the response body is base64-encoded and embedded directly back into the page, making the response readable by the same user through the browser.
@@ -249,7 +247,6 @@ Affected versions: <= 2.5.314 (commit 6f042e97cc2d3acda6b6ff611de8e0faacce91c1)
  - 6 July 2026 - reported via https://github.com/requarks/wiki/security/advisories/GHSA-9p4x-8wcm-8jpx
  - 14 September 2026 - no response; disclosed
 
-### Details
 ### Summary
 
 Wiki.js grants page-level permissions through per-group "Page Rules" that match a page's path using one of `START`, `END`, `EXACT`, `REGEX`, or `TAG`. The `START` and `END` matchers are implemented as plain string prefix/suffix comparisons with no requirement that the match end on a path separator. As a result, a rule intended to scope a group to one folder (for example `path: "projects/public"`, match `START`) also matches any unrelated page whose path happens to start with the same characters (for example `projects/public-confidential-financials`), even though that page is not a descendant of the intended folder.
