@@ -1,4 +1,4 @@
-# CVE-2026-65161
+# NVIDIA/aistore - CVE-2026-65161
 
 https://github.com/NVIDIA/product-security/blob/main/2026/5889/5889.md#acknowledgements
 
@@ -35,3 +35,10 @@ otherwise, and enforce authorization on the target rather than trusting the prox
 and forgeable headers.
 
 https://github.com/NVIDIA/product-security/blob/main/2026/5889/CVE-2026-65161.json
+
+
+# NVIDIA/aistore - storage targets do no authz, allowing full AuthN bypass (read/write/delete any bucket)
+
+<img width="1345" height="718" alt="image" src="https://github.com/user-attachments/assets/f9253659-e6ea-4db6-ae2d-a9076cc0ed67" />
+
+https://github.com/NVIDIA/aistore/releases/tag/v1.5.0#acknowledgments
