@@ -1,5 +1,7 @@
 # Unauthenticated content-restriction bypass via feeds/archivesSureMembers (suremembers-core) \<= 1.4.1
 
+https://suremembers.com/
+
 | Field | Value |
 | :---- | :---- |
 | **Component type** | WordPress Plugin |
