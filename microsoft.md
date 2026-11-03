@@ -7,6 +7,10 @@
 
 <img width="1218" height="741" alt="image" src="https://github.com/user-attachments/assets/1e330fa8-9408-4d8d-a4f2-59f34be4e2b5" />
 
+# microsoft/winget-cli
+
+<img width="1213" height="882" alt="image" src="https://github.com/user-attachments/assets/8e7b5c03-4c7b-4132-90cb-bd0562d59df9" />
+
 
 # Special Mention 2026
 
