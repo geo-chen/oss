@@ -11,6 +11,10 @@
 
 <img width="1213" height="882" alt="image" src="https://github.com/user-attachments/assets/8e7b5c03-4c7b-4132-90cb-bd0562d59df9" />
 
+# PowerShell
+
+<img width="1186" height="591" alt="image" src="https://github.com/user-attachments/assets/985c0458-5461-4f29-bf64-5a593035656d" />
+
 
 # Special Mention 2026
 
